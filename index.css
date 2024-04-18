@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8B6;
+}
+
+
+
+.bolum-2 {
+    width: 100%;
+    height: 450px;
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bolum-1 {
+    width: 100%;
+    height: 29px;
+    top: 0;
+    background-size: auto;
+    background-color: #343434;
+}
+
+.vesikalik {
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 0 20px #FFF8B6;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+
+}
+
+.vesikalik:hover {
+    box-shadow: 0 0 50px #FFF8B6;
+}
+
+label {
+    font-family: 'DM Serif Display', serif;
+    color: #FFFBCF;
+}
+
+.label-1 {
+    font-family: 'Great Vibes', cursive;
+    color: #FFFBCF;
+    font-size: 47px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.label-2 {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.s {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+
+.secret {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+section {
+    font-family: 'PT Serif', serif;
+    color: black;
+
+}
+
+.blabla {
+    background-size: cover;
+    background-position: center;
+}
+
+.kronolojiksiralama {
+
+    width: 100%;
+    height: 310px;
+    margin-top: 200px;
+    display: block;
+
+}
+
+.yazarintumeserleri {
+    border-radius: 4px;
+    background-color: #343434;
+    border: 2px solid #343434;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+
+}
+
+
+.yazarintumeserleri {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.yazarintumeserleri:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 12px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.yazarintumeserleri:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+
+
+
+}
+
+.yazarintumeserleri:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+
+
+.buyuksection {
+    width: 100%;
+    height: 4500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.buyukdiv {
+    margin-top: 100px;
+    padding: 8px;
+    padding-top: 15px;
+    font-size: 22px;
+    background-color: #fffbcf;
+    width: 1230px;
+    height: 100%;
+    display: block;
+}
+
+.lala {
+
+    transition: box-shadow 0.3s ease;
+}
+
+.lala:hover {
+
+    box-shadow: 0 0 50px #343434;
+}
+
+.col {
+    margin-left: 30px;
+    float: left;
+    width: 23%;
+    padding: 18px;
+    padding-bottom: 58px;
+}
+
+.col-item {
+    height: 700px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #343434;
+
+}
+
+nav {
+    width: 100%;
+    height: 68px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #FFF8B6;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+ 
+}
+nav a{
+    text-decoration: none;
+    box-shadow: 0 0 20px #FFF8B6;
+    transition: box-shadow 0.3s ease;
+    padding-right: 50px;
+  
+}
+nav a:hover{
+    box-shadow: 0 0 100px white;
+
+}
